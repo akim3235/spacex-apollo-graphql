@@ -1,0 +1,26 @@
+{
+  "name": "spacex-apollo-graphql",
+  "version": "1.0.0",
+  "description": "App that lists SpaceX launch missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akim3235/spacex-apollo-graphql.git"
+  },
+  "author": "Alexander Kim",
+  "license": "MIT",
+  "homepage": "https://github.com/akim3235/spacex-apollo-graphql#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
