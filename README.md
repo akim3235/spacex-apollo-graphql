@@ -1,5 +1,6 @@
-# spacex-apollo-graphql
+# SpaceX launch data visualizer
 
-## Backend: Node, Express, GraphQL.
+This application fetchs and displays required SpaceX launch data from https://api.spacexdata.com/v3/launches
 
-## Frontend: React, Apollo.
+Backend stack: Node, Express, GraphQL.
+Frontend stack: React, Apollo.
